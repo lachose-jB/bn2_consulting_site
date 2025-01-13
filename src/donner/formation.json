@@ -1,0 +1,172 @@
+[
+    {
+        "Formation_Title": "GESTION DE PROJET",
+        "Modules": [
+            {
+                "Module_Title": "SCRUM MASTER",
+                "Description": "Maîtriser la méthodologie Scrum pour gérer des projets agiles efficacement et devenir un leader d'équipe capable de faciliter le travail collaboratif."
+            },
+            {
+                "Module_Title": "PRODUCT OWNER",
+                "Description": "Apprendre à définir, prioriser et gérer les attentes des parties prenantes pour assurer la réussite des projets produits."
+            },
+            {
+                "Module_Title": "PMP: PROJECT MANAGEMENT PROFESSIONNEL",
+                "Description": "Préparation à la certification PMP, en apprenant les bonnes pratiques en gestion de projet selon le PMI (Project Management Institute)."
+            }
+        ],
+        "Description": "Spécialisation en gestion de projet et préparation aux certifications professionnelles reconnues."
+    },
+    {
+        "Formation_Title": "CYBER SÉCURITÉ",
+        "Modules": [
+            {
+                "Module_Title": "SENSIBILISATION À LA SÉCURITÉ DE VOTRE PATRIMOINE INFORMATIQUE",
+                "Description": "Introduction à la sécurité informatique, protection des données et sensibilisation aux risques cybernétiques pour sécuriser les infrastructures IT."
+            },
+            {
+                "Module_Title": "CYBERHARCELEMENT",
+                "Description": "Identifier et prévenir les menaces liées au cyberharcèlement, tant au niveau individuel qu'organisationnel."
+            },
+            {
+                "Module_Title": "FORMATION AVANCÉE SUR PENTEST (TEST D'INTRUSION) ET DURCISSEMENT",
+                "Description": "Apprendre les techniques de test d'intrusion pour identifier les vulnérabilités des systèmes et mettre en œuvre des mesures de renforcement de la sécurité."
+            }
+        ],
+        "Description": "Développer des compétences avancées en cybersécurité, du management des risques à la sécurisation des infrastructures."
+    },
+    {
+        "Formation_Title": "DÉVELOPPEMENT SITE WEB",
+        "Modules": [
+            {
+                "Module_Title": "DÉVELOPPEMENT WEB (FRONT-END)",
+                "Description": "Apprendre à créer des interfaces utilisateur interactives et esthétiques à l'aide des technologies front-end comme HTML, CSS et JavaScript."
+            },
+            {
+                "Module_Title": "DÉVELOPPEMENT WEB (BACK-END)",
+                "Description": "Maîtriser les technologies back-end pour gérer les bases de données, les serveurs et la logique applicative, comme Node.js, PHP ou Python."
+            },
+            {
+                "Module_Title": "DÉVELOPPEMENT APPLICATION MOBILE",
+                "Description": "Concevoir et développer des applications mobiles performantes et optimisées pour les plateformes iOS et Android."
+            }
+        ],
+        "Description": "Acquérir les compétences nécessaires pour concevoir, développer et déployer des sites web et des applications mobiles."
+    },
+    {
+        "Formation_Title": "LE LEADERSHIP",
+        "Modules": [
+            {
+                "Module_Title": "LES FONDAMENTAUX DU LEADERSHIP",
+                "Description": "Comprendre les qualités essentielles d'un leader et apprendre à inspirer et motiver une équipe vers l'atteinte des objectifs."
+            },
+            {
+                "Module_Title": "LEADERSHIP STRATÉGIQUE ET PRISE DE DÉCISION",
+                "Description": "Développer des compétences en prise de décision stratégique pour mener une équipe ou une organisation à long terme."
+            },
+            {
+                "Module_Title": "LEADERSHIP COLLABORATIF ET GESTION DES ÉQUIPES",
+                "Description": "Promouvoir un leadership collaboratif en favorisant la communication, la coopération et la gestion des conflits au sein d'une équipe."
+            }
+        ],
+        "Description": "Développer des compétences en leadership pour gérer et inspirer des équipes de manière efficace."
+    },
+    {
+        "Formation_Title": "MARKETING DIGITAL",
+        "Modules": [
+            {
+                "Module_Title": "STRATÉGIES DE MARKETING DIGITAL",
+                "Description": "Apprendre à élaborer et mettre en œuvre des stratégies digitales pour attirer et fidéliser des clients en ligne."
+            },
+            {
+                "Module_Title": "RÉSEAUX SOCIAUX ET PUBLICITÉ EN LIGNE",
+                "Description": "Optimiser l'utilisation des réseaux sociaux et des plateformes publicitaires pour promouvoir des produits et services."
+            },
+            {
+                "Module_Title": "ANALYTICS ET SEO",
+                "Description": "Utiliser des outils d'analyse de données et optimiser le référencement naturel pour améliorer la visibilité d'un site web."
+            }
+        ],
+        "Description": "Maîtriser les outils et techniques pour réussir dans le domaine du marketing digital."
+    },
+    {
+        "Formation_Title": "MAINTENANCE IT",
+        "Modules": [
+            {
+                "Module_Title": "MAINTENANCE PRÉVENTIVE ET CURATIVE",
+                "Description": "Apprendre à anticiper les pannes informatiques et à intervenir rapidement pour les résoudre."
+            },
+            {
+                "Module_Title": "GESTION DES INCIDENTS ET SUPPORT TECHNIQUE",
+                "Description": "Maîtriser les processus de gestion des incidents et offrir un support technique efficace aux utilisateurs."
+            },
+            {
+                "Module_Title": "MAINTENANCE DES INFRASTRUCTURES IT (RÉSEAU, SYSTÈMES ET SERVEURS)",
+                "Description": "Assurer le bon fonctionnement et la sécurité des infrastructures réseau, des systèmes et des serveurs."
+            }
+        ],
+        "Description": "Acquérir des compétences techniques pour assurer la maintenance des systèmes IT et offrir un support efficace."
+    },
+    {
+        "Formation_Title": "INITIATION À L’INFORMATIQUE : MS OFFICE",
+        "Modules": [
+            {
+                "Module_Title": "FORMATION WORD",
+                "Description": "Apprendre à utiliser Microsoft Word pour créer et formater des documents professionnels."
+            },
+            {
+                "Module_Title": "FORMATION EXCEL",
+                "Description": "Maîtriser les bases et les fonctionnalités avancées d'Excel pour gérer les données et réaliser des analyses."
+            },
+            {
+                "Module_Title": "FORMATION POWERPOINT",
+                "Description": "Créer des présentations professionnelles et percutantes à l'aide de Microsoft PowerPoint."
+            },
+            {
+                "Module_Title": "FORMATION ACCESS",
+                "Description": "Utiliser Microsoft Access pour gérer des bases de données relationnelles efficacement."
+            },
+            {
+                "Module_Title": "FORMATION PHOTOSHOP",
+                "Description": "Apprendre les bases de la retouche photo et du graphisme avec Adobe Photoshop."
+            }
+        ],
+        "Description": "Maîtriser les outils de la suite Microsoft Office et Photoshop pour améliorer la productivité et la créativité."
+    },
+    {
+        "Formation_Title": "ENTREPRENDRE EN AFRIQUE",
+        "Modules": [
+            {
+                "Module_Title": "COMPRENDRE L'ÉCOSYSTÈME ENTREPRENEURIAL",
+                "Description": "Explorer l'environnement des affaires en Afrique, y compris les opportunités, les défis et les solutions locales."
+            },
+            {
+                "Module_Title": "CRÉATION ET GESTION D'UNE ENTREPRISE EN AFRIQUE",
+                "Description": "Acquérir les compétences pour créer et gérer une entreprise durable en Afrique, en tenant compte des spécificités locales."
+            },
+            {
+                "Module_Title": "STRATÉGIES DE DÉVELOPPEMENT ET GESTION DES DÉFIS",
+                "Description": "Mettre en place des stratégies efficaces pour surmonter les défis entrepreneuriaux et stimuler la croissance."
+            }
+        ],
+        "Description": "Développer des compétences entrepreneuriales pour réussir dans le contexte africain."
+    },
+    {
+        "Formation_Title": "ANGLAIS",
+        "Modules": [
+            {
+                "Module_Title": "ANGLAIS DES AFFAIRES INTERMÉDIAIRE B1",
+                "Description": "Développer des compétences linguistiques de niveau intermédiaire pour communiquer dans un environnement professionnel international."
+            },
+            {
+                "Module_Title": "ANGLAIS DES AFFAIRES INTERMÉDIAIRE-AVANCÉ B2",
+                "Description": "Renforcer ses compétences en anglais des affaires avec des discussions plus complexes et des situations professionnelles variées."
+            },
+            {
+                "Module_Title": "ANGLAIS DES AFFAIRES TRÈS AVANCÉ B3",
+                "Description": "Atteindre un niveau de maîtrise avancé en anglais des affaires pour négocier, présenter et interagir à haut niveau."
+            }
+        ],
+        "Description": "Améliorer les compétences en anglais des affaires à travers différents niveaux de maîtrise."
+    }
+]
