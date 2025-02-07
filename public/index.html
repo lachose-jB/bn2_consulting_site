@@ -717,6 +717,14 @@
         <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
     
         <!-- Template Javascript -->
+         <script>
+    window.onload = function() {
+        setTimeout(function() {
+            document.getElementById('spinner').style.display = 'none';
+        }, 500); // Attendre 500ms avant de masquer le spinner
+    }
+</script>
+
         <script src="../js/main.js"></script>
         <script src="../controler/visiV.js"></script>
         <script src="../js/scriptJs.js"></script>
