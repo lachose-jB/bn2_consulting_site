@@ -18,27 +18,36 @@ app.use(morgan('combined')); // Logger les requêtes HTTP
 // Middleware pour servir les fichiers statiques
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Servir les fichiers statiques depuis src
-const staticFolders = ['src', 'js', 'controler', 'models', 'donner', 'lib'];
-staticFolders.forEach(folder => {
-    app.use(`/${folder}`, express.static(path.join(__dirname, `src/${folder}`)));
-});
+// Vérifier si les fichiers HTML sont bien accessibles
+const fs = require('fs');
 
-// Routes pour les pages HTML
+// Liste des fichiers HTML
 const pages = [
     'appropos', 'blog', 'formation', 'contact', 'detail', 
     'feature', 'gg', 'price', 'quote', 'services', 'equipe', 'testimonial'
 ];
 
+// Routes pour les pages HTML
 pages.forEach(page => {
+    const filePath = path.join(__dirname, `public/views/${page}.html`);
+    
     app.get(`/${page}`, (req, res) => {
-        res.sendFile(path.join(__dirname, `views/${page}.html`));
+        if (fs.existsSync(filePath)) {
+            res.sendFile(filePath);
+        } else {
+            res.status(404).send(`❌ Page ${page} introuvable`);
+        }
     });
 });
 
-// Page d'accueil
+// Route d'accueil
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/index.html'));
+});
+
+// Route de test pour voir si le serveur tourne
+app.get('/ping', (req, res) => {
+    res.send('✅ Serveur en ligne !');
 });
 
 // Gestion des erreurs 404
@@ -48,14 +57,14 @@ app.use((req, res) => {
 
 // Gestion des erreurs générales
 app.use((err, req, res, next) => {
-    console.error(err.stack);
-    res.status(500).send('Erreur interne du serveur');
+    console.error('Erreur serveur:', err.stack);
+    res.status(500).send('❌ Erreur interne du serveur');
 });
 
 // Démarrer le serveur
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`🚀 Server is running on port ${PORT}`);
+    console.log(`🚀 Serveur en ligne sur http://localhost:${PORT}`);
 });
 
 module.exports = app;
