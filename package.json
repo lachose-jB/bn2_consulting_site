@@ -12,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.0.0"
+    "express": "^5.0.0",
+    "vercel": "^41.0.2"
   },
-  "devDependencies": {},
   "description": ""
 }
